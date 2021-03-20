@@ -1,7 +1,9 @@
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --tertiary-color: ;
+    --primary-color: #557a95;
+    --secondary-color: #7395ae;
+    --tertiary-color: #b1a296;
+    --dark-gray: #5d5c61;
+    --light-gray: #ADADAD;
 }
 
 * {
@@ -11,11 +13,86 @@
 }
 
 body {
-    font-family: 'roboto';
+    color: var(--primary-color);
+    font-family: Product Sans;
+    background-image: url("../images/wallpaper-image.jpeg");
 }
 
-.profile-image {
-    max-width: 200px;
-    max-height: 400px;
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
 
+header {
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url("../images/wallpaper-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+footer {
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero {
+    background-size: cover;
+    background-position: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+.profile-image img {
+    border-radius: 50%;
+    box-shadow: 40px 25px 55px 6px #85919d;
+    max-width: 125px;
+    max-height: 150px;
+}
+
+.projects project-image img {
+    border-radius: 25%;
+    box-shadow: 10px 10px 0 6px #85919d;
 }
