@@ -1,0 +1,21 @@
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --tertiary-color: ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto';
+}
+
+.profile-image {
+    max-width: 200px;
+    max-height: 400px;
+
+}
