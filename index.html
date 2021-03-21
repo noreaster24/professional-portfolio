@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joe Porrazzo Jr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -23,15 +22,12 @@
             <li>
                 <a href="#about-me">About Me</a>
             </li>
-            <li>
-                <a href="#contact-me">Contact Me</a>
-            </li>
         </ul>
         </nav>
     </header>
     
     <section class="hero">
-        <div class="title">
+        <div class="hero-title">
             <h2>Welcome to My Portfolio!</h2>
             <p>
                 Hi, I'm Joe Porrazzo 👋 <br/>
@@ -44,33 +40,44 @@
         </div>
     </section>
 
-    <section id="portfolio" class="projects">
-            <h2 class="section-title">My Projects</h2>
-
-            <div class="projects">
-                <h3>Project 1 Name</h3>
-                <div class="project-img">
-                    <img src="./assets/images/project-1.png" alt="" />
+    <section id="projects" class="container">
+            <!-- <h2 class="section-title">My Projects</h2> -->
+            <div class="card">
+                <div class="project">
+                    <div class="circle"></div>
+                    <img src="./assets/images/step-3.svg" alt="" />
+                </div>
+                <div class="info">
+                    <h1 class="title">Run-Buddy</h1>
+                    <h3>First attempt at HTML and building a webpage!</h3>
                 </div>
             </div>
 
-            <div class="projects">
-                <h3>Project 2 Name</h3>
-                <div class="project-img">
+            <div class="card">
+                <div class="project">
+                    <div class="circle"></div>
                     <img src="./assets/images/project-2.jpeg" alt="" />
                 </div>
+                <div class="info">
+                    <h1 class="title">HoriSEOn</h1>
+                    <h3>Second attempt at HTML and building a webpage!</h3>
+                </div>
             </div>
 
-            <div class="projects">
-                <h3>Project 3 Name</h3>
-                <div class="project-img">
+            <div class="card">
+                <div class="project">
+                    <div class="circle"></div>
                     <img src="./assets/images/project-3.jpeg" alt="" />
+                </div>
+                <div class="info">
+                    <h1 class="title">PENDING</h1>
+                    <h3>NOT SURE WHAT'S GOING HERE YET</h3>
                 </div>
             </div>
     </section>
 
-    <section id="about-section" class="personal-info">
-        <div class="about-me">
+    <section id="about-me" class="personal-info">
+        <div class="about">
             <h3>About Me</h3>
             <p>
             I was born in Alaska and raised in a military family, so I moved a lot.  I received my BS in Communications and MBA from the University of Arizona and I'm excited to be working through a coding boot camp with the UofA!  I work in product development, with an emphasis on controllers, wireless sensors, and mobile app development. <br/>
@@ -79,7 +86,7 @@
             </p>
         </div>
 
-        <div class="contact-info">
+        <div class="contact-me">
             <h3>Let's Be Friends</h3>
             <address>
                 P: 520-247-6413<br/>
