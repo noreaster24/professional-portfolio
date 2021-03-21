@@ -76,12 +76,12 @@ footer {
     display: flex;
     width: 100%;
     justify-content: left;
-    padding-left: 40px;
+    padding: 0 0 10px 40px;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
-    border-bottom: var(--primary-color);
+    border-bottom: 1px dotted var(--primary-color);
 }
 
 .profile-image img {
@@ -89,7 +89,7 @@ footer {
     box-shadow: 40px 25px 55px 6px #85919d;
     max-width: 125px;
     max-height: 150px;
-    justify-content: right;
+    float: right;
 }
 
 .hero-title h2 {
@@ -111,11 +111,12 @@ footer {
 .container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     cursor: pointer;
     padding: 30px;
     margin: 30px;
+    border-bottom: 1px dotted var(--primary-color);
 }
 
 .card {
@@ -127,10 +128,10 @@ footer {
 }
 
 .info {
-    min-height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .project {
@@ -190,10 +191,11 @@ footer {
 
 .contact-me address {
     font-size: 24px;
-    padding-left: 30px;
+    padding: 10px 0 0 30px;
 }
 
-.twitter-follow-button {
-    width: auto;
-    height: auto;
+.Li-profile-badge {
+    float: right;
 }
+
+
