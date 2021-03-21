@@ -74,18 +74,22 @@ footer {
     background-size: cover;
     background-position: cover;
     display: flex;
-    justify-content: center;
+    width: 100%;
+    justify-content: left;
+    padding-left: 40px;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
     border-bottom: var(--primary-color);
 }
+
 .profile-image img {
     border-radius: 50%;
     box-shadow: 40px 25px 55px 6px #85919d;
     max-width: 125px;
     max-height: 150px;
+    justify-content: right;
 }
 
 .hero-title h2 {
@@ -115,10 +119,10 @@ footer {
 }
 
 .card {
-    min-height: 35vh;
-    width: 35rem;
+    height: 35vh;
+    width: 25rem;
     border-radius: 30px;
-    padding: 0 5rem;
+    padding: 0 5px 0 5px;
     box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
 }
 
@@ -170,8 +174,26 @@ footer {
 .personal-info h3 {
     font-size: 28px;
     font-weight: bolder;
+    padding: 5px 50px 0 50px;
 }
 .personal-info p {
     font-size: 22px;
     font-weight: lighter;
+    padding: 10px 60px 10px 60px;
+    justify-content: center;
+}
+
+.contact-me h3 {
+    font-size: 28px;
+    padding-left: 30px;
+}
+
+.contact-me address {
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+.twitter-follow-button {
+    width: auto;
+    height: auto;
 }
