@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #557a95;
-    --secondary-color: #7395ae;
+    --primary-color: #7395ae;
+    --secondary-color: #191970;
     --tertiary-color: #b1a296;
     --dark-gray: #5d5c61;
     --light-gray: #ADADAD;
@@ -92,7 +92,7 @@ footer {
 }
 
 .about-container {
-    width: 80%;
+    width: 90%;
     margin: 3.5%;
     padding: 20px;
     height: 330px;
@@ -100,7 +100,7 @@ footer {
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -159,7 +159,7 @@ button:active {
 .projects-container {
     width: 100%;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     cursor: pointer;
     padding: 30px;
@@ -188,6 +188,7 @@ button:active {
     align-items: center;
     justify-content: center;
 }
+
 
 .project img {
     width: 10rem;
@@ -222,11 +223,13 @@ button:active {
 
 .personal-info h3 {
     font-size: 28px;
+    color: var(--secondary-color);
     font-weight: bolder;
     padding: 5px 50px 0 50px;
 }
 .personal-info p {
     font-size: 22px;
+    color: var(--primary-color);
     font-weight: lighter;
     padding: 10px 60px 10px 60px;
     justify-content: center;
