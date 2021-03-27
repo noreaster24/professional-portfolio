@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Joe Porrazzo Jr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
+
 <body>
     <section>
-    <!-- Header -->
+        <!-- Header -->
         <nav>
             <a href="#" class="title-name">Joe Porrazzo Jr</a>
             <ul>
@@ -18,83 +22,72 @@
                 <li><a href="#about-me">About Me</a></li>
             </ul>
         </nav>
-    
-        <!-- Introduction section -->
-        <div class="about-container">
-            <!-- profile image -->
-            <img src="./assets/images/profile-image.jpg" alt="Joe Porrazzo profile image"/>
-            <!-- About me text -->
-            <div class="hero-text">
-                <p>Welcome to My Portfolio!</p>
-                <p>Hi, I'm Joe Porrazzo 👋 </p>
-                <p>I'm a Product Manager and I develop new controllers and wireless products for homes and small businesses. <br/>
-                <p>I am excited to be working through a coding boot camp at the University of Arizona! </p>
-                <button class="down-resume">Download My Resume</button>
+        <!-- About me -->
+        <div class="profile-container">
+            <div class="img-container">
+                <img src="./assets/images/profile-image.jpg" alt="Joe Porrazzo Profile Image">
             </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects-container">
-            <!-- <h2 class="section-title">My Projects</h2> -->
-            <div class="card">
-                <div class="project">
-                    <div class="circle"></div>
-                    <img src="./assets/images/running-shoe.png" alt="" />
-                </div>
-                <div class="info">
-                    <h1 class="title">Run-Buddy</h1>
-                    <h3>First attempt at HTML and building a webpage!</h3>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="project">
-                    <div class="circle"></div>
-                    <img src="./assets/images/search-enginer.png" alt="" />
-                </div>
-                <div class="info">
-                    <h1 class="title">HoriSEOn</h1>
-                    <h3>Second attempt at HTML and building a webpage!</h3>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="project">
-                    <div class="circle"></div>
-                    <img src="./assets/images/coming-soon.png" alt="" />
-                </div>
-                <div class="info">
-                    <h1 class="title">PENDING</h1>
-                    <h3>NOT SURE WHAT'S GOING HERE YET</h3>
-                </div>
-            </div>
-    </section>
-
-i    <section class="personal-info">
-        <div class="about-text">
-            <h3>About Me</h3>
-            <p>
-            I was born in Alaska and raised in a military family, so I moved a lot.  I received my BS in Communications and MBA from the University of Arizona and I'm excited to be working through a coding boot camp with the UofA!  I work in product development, with an emphasis on controllers, wireless sensors, and mobile app development. <br/>
-            My wife and I have been together for 16 years and we have two beautiful children; a princess named Ellie and a master of destruction named Miles. <br/>
-            When I'm not working or attending class, I enjoy playing and watching sports, video games, dance parties with my kids, and going down YouTube rabbit holes (recently focused on website and app design). <br/>
+            <p class="full-name">Joe Porrazzo Jr.</p>
+            <p class="role">Product Manager & Software Developer</p>
+            <p class="description">
+                I received my BS in Communications and MBA from the University of Arizona and I'm excited to be working
+                through a coding boot camp with the UofA!<br />
             </p>
+            <div class="social-container">
+                <button><i class="fab fa-github"></i></button>
+                <button><i class="fab fa-twitter"></i></button>
+                <button><i class="fab fa-linkedin-in"></i></button>
+            </div>
         </div>
 
-        <div class="contact-me">
-            <h3>Let's Be Friends</h3>
-            <address>
-                P: 520-247-6413<br/>
-                E: <a href="mailto:josephporrazzo@gmail.com">josephporrazzo@gmail.com</a><br/>
-                <a href="https://twitter.com/joeporrazzojr?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @joeporrazzojr</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/>
-                <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script><br/>
-                <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="joe-porrazzo-48325254"><a class="LI-simple-link" href='https://www.linkedin.com/in/joe-porrazzo-48325254?trk=profile-badge'>Joe Porrazzo</a></div>
-            </address>
-        </div>
-    </section>
 
-    <footer>
-        <h2> foo foo foo</h2>
-    </footer>
+        <!-- Project Portfolio -->
+        <section class="projects">
+            <div class="projects">
+                <div class="project-container">
+                    <div class="card">
+                        <div class="project">
+                            <div class="circle"></div>
+                            <img src="./assets/images/running-shoe.png" alt="" />
+                        </div>
+                        <div class="info">
+                            <a href="http://lernantino.github.io/run-buddy/">Run Buddy</a>
+                            <h3>First attempt at HTML and building a webpage!</h3>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="project">
+                            <div class="circle"></div>
+                            <img src="./assets/images/search-enginer.png" alt="" />
+                        </div>
+                        <div class="info">
+                            <a href="https://noreaster24.github.io/urban-octo-telegram/">HoriSEOn</a>
+                            <h3>Second attempt at HTML and building a webpage!</h3>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="project">
+                            <div class="circle"></div>
+                            <img src="./assets/images/coming-soon.png" alt="" />
+                        </div>
+                        <div class="info">
+                            <h1 class="title">PENDING</h1>
+                            <h3>NOT SURE WHAT'S GOING HERE YET</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+
+
+
+        <footer>
+            <h2>Thank you for visiting my page!</h2>
+        </footer>
 </body>
 
 </html>
