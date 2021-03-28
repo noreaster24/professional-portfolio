@@ -269,12 +269,15 @@ footer a {
 
 .contact h1 {
     font-size: 25px;
-    color: var(--primary-color)
+    color: var(--primary-color);
+    margin-bottom: 16px;
+    border-bottom: 1px dotted var(--primary-color);
 }
 
 .contact ul li {
     list-style: none;
     color: var(--tertiary-color);
+    padding: 4px;
 }
 
 .contact ul li:nth-child(1) {
