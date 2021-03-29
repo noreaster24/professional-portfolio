@@ -1,5 +1,10 @@
 # Professional Portfolio Challenge
 
+#Notes
+* Hover over profile image to expand 'About Me' section
+* Hover effect on project cards to identify which is being selected
+* Select project title to open the webpage
+
 # User Story
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
@@ -22,3 +27,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # Link to Site
 https://noreaster24.github.io/professional-portfolio/
+
+
