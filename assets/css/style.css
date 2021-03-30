@@ -191,7 +191,7 @@ footer a {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .project-container {
@@ -207,7 +207,7 @@ footer a {
 
 .card {
     height: 35vh;
-    width: 25vw;
+    width: 15vw;
     border-radius: 30px;
     padding: 0 5px 0 5px;
     margin: 0 20px 0 20px;
@@ -341,7 +341,15 @@ footer a {
     }
 
     .project-container {
-        flex: 1 100%;
+        flex: 1 80%;
+        display: inline-block;
+        margin: 10px 0 10px 0;
+    }
+
+    .card {
+        width: 40vw;
+        height: 25vh;
+        margin: 0 auto;
     }
 
     .info a {
