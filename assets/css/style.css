@@ -350,6 +350,7 @@ footer a {
         width: 40vw;
         height: 25vh;
         margin: 0 auto;
+        flex: 1;
     }
 
     .info a {
